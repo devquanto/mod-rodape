@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+	<name>MOD_RODAPE</name>
+	<creationDate>2023-07</creationDate>
+	<author>DevQuanto</author>
+	<authorEmail>dev.davidribeiro05@gmail.com</authorEmail>
+	<authorUrl>www.devquanto.com.br</authorUrl>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0</version>
+	<description>MOD_RODAPE_XML_DESCRIPTION</description>
+
+	<files>
+		<filename module="mod_rodape">mod_rodape.php</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<filename>mod_rodape.xml</filename>
+	</files>
+</extension>
