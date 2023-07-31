@@ -11,4 +11,6 @@
 defined('_JEXEC') or die;
 ?>
 
-Olá mundo
+<div>
+    <p>DevQuanto <?= $currentYear ?> ©</p>
+</div>

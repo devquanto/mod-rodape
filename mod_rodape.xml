@@ -9,11 +9,19 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<version>1.0</version>
 	<description>MOD_RODAPE_XML_DESCRIPTION</description>
+	<namespace path="src">DevQuanto\Module\Rodape</namespace>
 
 	<files>
 		<filename module="mod_rodape">mod_rodape.php</filename>
 		<folder>tmpl</folder>
-		<folder>language</folder>
+		<folder>src</folder>
 		<filename>mod_rodape.xml</filename>
 	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_rodape.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_rodape.sys.ini</language>
+		<language tag="pt-BR">language/pt-BR/pt-BR.mod_rodape.ini</language>
+		<language tag="pt-BR">language/pt-BR/pt-BR.mod_rodape.sys.ini</language>
+	</languages>
 </extension>

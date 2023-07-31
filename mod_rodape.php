@@ -10,7 +10,10 @@
 
 defined('_JEXEC') or die;
 
+use DevQuanto\Module\Rodape\Site\Helper\RodapeHelper;
 use Joomla\CMS\Helper\ModuleHelper;
+
+$currentYear = RodapeHelper::getCurrentYear();
 
 require ModuleHelper::getLayoutPath(
     'mod_rodape',
